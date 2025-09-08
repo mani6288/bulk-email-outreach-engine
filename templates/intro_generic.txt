@@ -1,0 +1,10 @@
+Hi {{ first_name or "there" }},
+
+I’m M. Rehman (Software/AI Engineer). I’ve recently shipped {{ one_liner or "a few production apps in Python + FastAPI with automated outreach pipelines" }}.
+
+Portfolio: {{ portfolio_url }}
+CV: {{ cv_url }}
+
+I like what {{ company or "your team" }} is building{{ (" in " + company_focus) if company_focus else "" }}. If my background can accelerate your roadmap, I’d love to help.
+
+Unsubscribe: {{ unsub_url }}?e={{ email }}
